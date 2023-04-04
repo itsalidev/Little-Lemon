@@ -1,0 +1,17 @@
+.specials {
+  padding: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  background-color: #51ad8e;
+}
+
+.specialAdv {
+  font-family: Markazi Text;
+  font-weight: 600;
+  font-size: 40px;
+  background-color: #51ad8e;
+  color: aliceblue;
+}

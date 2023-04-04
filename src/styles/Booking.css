@@ -1,0 +1,45 @@
+.header {
+  text-align: center;
+  font-size: 32px;
+}
+
+.bookingForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.formField {
+  border-radius: 10px;
+  width: 350px;
+  background-color: #edefee;
+}
+.field {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.labelForm {
+  font-size: 20px;
+}
+
+.bookingButton {
+  padding: 10px 25px;
+  border-radius: 7px;
+  font-size: 18px;
+}
+
+.inputField {
+  font-size: 18px;
+}
+
+.errorMsg {
+  color: red;
+  padding-left: 20px;
+}
+
+.confirmation {
+  display: flex;
+  justify-content: center;
+}

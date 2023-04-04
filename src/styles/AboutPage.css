@@ -1,0 +1,29 @@
+.aboutPage {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.ownersPhoto {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+#about_owners {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.contactSection {
+  display: grid;
+  background-color: #fbdabb;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  padding-top: 40px;
+}

@@ -1,0 +1,50 @@
+.cardBox {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  justify-content: center;
+}
+
+.foodPhoto {
+  width: 400px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  width: 400px;
+  height: 480px;
+  background-color: #e4dbd2;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin: 0px 100px 30px 100px;
+}
+
+.cardItem {
+  padding: 20px;
+}
+
+.cardTitle {
+  font-family: Markazi Text;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.foodDesription {
+  margin-bottom: 25px;
+}
+.priceSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderDelivery {
+  font-weight: 600;
+}
+.icon {
+  padding: 15px;
+}
+.price {
+  color: #ee9972;
+  font-weight: 500;
+}

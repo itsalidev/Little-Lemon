@@ -1,0 +1,29 @@
+.button {
+  border-radius: 8px;
+  background-color: #a0e000;
+  /* border: 2px solid #f4ce14; */
+  color: #000000;
+  font-weight: 600;
+  font-family: Karla;
+  padding: 10px 25px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #bbe000;
+  color: #000000;
+  cursor: pointer;
+}
+
+.button:active {
+  border: 2px solid #edefee;
+  box-shadow: 2px 1px 1px #edefee;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #83837f;
+  color: #eef5ee;
+  /* box-shadow: 2px 1px 1px #98978f; */
+  cursor: auto;
+}

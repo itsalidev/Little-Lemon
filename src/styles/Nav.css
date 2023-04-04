@@ -1,0 +1,34 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  flex-wrap: wrap;
+  font-family: Karla;
+  font-size: 24px;
+  align-items: center;
+  background-color: black;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff700;
+}
+
+a:hover:not(:first-child) {
+  cursor: pointer;
+  transition: all 0.7s ease-out;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: none;
+  color: #44ff00;
+}
